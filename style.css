@@ -1,0 +1,555 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+}
+
+.header {
+    background-color: #006eff;
+    height: 7%;
+    font-size: large;
+    position: fixed;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.fi {
+    font-size: 30;
+    color: white;
+    margin-left: 30px;
+    margin-top: 0.7%;
+    margin-right: 15px;
+    float: left;
+}
+
+
+.searchbar {
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin-top: 0.7%;
+    margin-bottom: 0.5%;
+    float: left;
+}
+
+.header .si{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    font-size: larger;
+}
+
+.headlist {
+    float: right;
+    margin-top: 12px;
+}
+
+.listitems {
+    display: inline;
+    margin-right: 30px;
+}
+
+.listitems a {
+    color: white;
+    text-decoration: none;
+}
+
+.listitems a:hover {
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+.container1 {
+    background-image: url(../Images/cool-minecraft-wallpaper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.btn-container1 {
+    text-align: center;
+}
+
+.btn-container1 .btn1 {
+    background-color: #006eff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: large;
+    padding: 0px 5px 0px 5px;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-container1 .btn2 {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-size: large;
+    padding: 0px 5px 0px 5px;
+    color:#006eff;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container1 button:hover {
+    opacity: 0.4;
+    transition: all 0.5s;
+}
+
+.slogan {
+    height: auto;
+    width: auto;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 40vh;
+    color: white;
+}
+
+.slogan2 {
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.title1 {
+    margin-top: 70px;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title2 {
+    font-size: 35px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line1 {
+    display: block;
+    width: 15%;
+    height: 4px;
+    background-color: #006eff;
+    margin: auto;
+    /*margin-top: -8px;*/
+}
+
+
+.welcome-container {
+    width: 75%;
+    margin: auto;
+    height: 75vh;
+}
+ 
+
+.welcome-item {
+    float: left;
+
+    background-color: rgb(255, 255, 255);
+    
+
+    width: 30% ;
+    margin-top: 40px;
+    margin-right: 5%;
+    height: 30vh;
+    padding: 25px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 15px;
+}
+
+.welcome-item:hover {
+    background-color: #a1a1a1;
+    transition: all 0.5s;
+    color: white;
+}
+
+.welcome-item a {
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.welcome-item a:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.i1 {
+    font-size: larger;
+}
+
+.welcome-item .p1 {
+    margin-top: 15px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.welcome-item .p2 {
+    margin-top: 10px;
+    font-size:small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.feature-container {
+    margin-top: 100vh;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color: #d1d1d1;
+}
+
+.feature-container h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feature-item {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 25% ;
+    margin-top: 40px;
+    margin-right: 5%;
+    height: 30vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.feature-item-hover {
+    width: auto;
+    height: 29.5vh;
+    opacity: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.feature-item-hover:hover {
+    transition: all 0.2s;
+    width: auto;
+    height: 29.5vh;
+    background-color: rgb(255, 250, 250);
+    opacity: 0.6;
+    color: #000000;
+}
+
+.feature-item-hover-text:hover {
+    opacity: 1;
+    color: #000000;
+}
+
+.f1 {
+    background-image: url(../Images/f9371673-913b-4fa6-b476-2d310434c273.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.f1 {
+    
+}
+
+.f2 {
+    background-image: url(../Images/apps.58378.13850085746326678.826cc014-d610-46af-bdb3-c5c96be4d22c.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.f3 {
+    background-image: url(../Images/from-now-on-minecraft-will-get-several-free-updates-a-year-cover66df1e5ce5940.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.f4 {
+    background-image: url(../Images/minecraft-8188-2560x1600.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.f5 {
+    background-image: url(../Images/minecraft-dat-ky-luc-moi-voi-hon-141-trieu-nguoi-dung-hoat-dong-hang-thang-16588346629151131754891.webp);
+    background-position: center;
+    background-size: cover;
+}
+.f6 {
+    background-image: url(../Images/Vanilla-PMP_Collection-Carousel-0_Buzzy-Bees_1280x768.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.offer-container {
+    margin-top: 100vh;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.offer-container h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offer-item {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 25% ;
+    margin-top: 40px;
+    margin-right: 5%;
+    height: 30vh;
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.offer-item:hover {
+    background-color: #cecece;
+    transition: all 0.5s;
+}
+
+.offer-item div {
+    float: left;
+    padding-left: 10px;
+}
+.offer-item div h2 {
+    float: left;
+}
+.line2 {
+    display: block;
+    width: 15%;
+    height: 4px;
+    background-color: #006eff;
+}
+
+.i2 {
+    float: left;
+    font-size: x-large;
+    margin-right: 0px;
+}
+
+
+
+.why-container {
+    float: left;
+    display: block;
+    width: 80%;
+    padding: auto;
+    height: 100vh;
+    margin-left: 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.why-container .line2 {
+    display: block;
+    margin-top: 1vh;
+}
+
+.why-item1 {
+    text-align: left;
+    width: 40%;
+    height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10vh;
+}
+
+.why-item1 ul {
+    list-style: none;
+}
+
+.why-item2 {
+    height: 50vh;
+    width: 30%;
+    float: right;
+    margin-top: -54%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: auto;
+    background-image: url(../Images/cool-minecraft-wallpaper.png);
+    background-size: cover;
+}
+
+.icon-container {
+    height: 60vh;
+    width: 100%;
+    margin-top: 90vh;
+    background-image: url(../Images/minecraft1-6-4-1920x1080-png2-1.webp);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.icon-parent {
+    padding: 0;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    background-attachment: fixed;
+}
+
+.icon-item {
+    font-size: 15vh;
+    float: left;
+    height: auto;
+    width: auto;
+    color: white;
+    margin-top: 10%;
+    margin-left: -160vh;
+    margin-right: 50px;
+}
+
+.icon-item p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.p12 {
+    margin-left: 45vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p13 {
+    margin-left: 90vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p14 {
+    margin-left: 134vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icon-item .fa-users {
+    margin-left: 0;
+}
+
+.icon-item .fa-trophy {
+    margin-left: 45vh;
+}
+
+.icon-item .fa-star {
+    margin-left: 90vh;
+}
+
+.icon-item .fa-file-upload {
+    margin-left: 135vh;
+}
+
+.price-container {
+    height: 70vh;
+    margin-top: -20vh;
+    margin-bottom: 20vh;
+    padding-left: 2.5vh;
+}
+
+.price-container h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.line1 .a {
+    width: 200px;
+}
+
+.simple {
+    width: 300px;
+    height: auto;             /* Margin == Outer spacing */
+    border: 1px solid black;
+    border-radius: 10px;      /* Padding == Inner spacing */
+    float: left;
+    margin:0px 70px 0px 70px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.simple h1 {
+    margin-top: 0vh;
+    font-size: 40px;
+}
+
+.simple:hover {
+    background-color: #a1a1a1;
+    transition: all 0.4s;
+}
+
+.label1 {
+    text-align: center;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    padding: auto;
+    padding-top: 10px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+
+
+.offer1 {
+    padding: 5px 0px 5px 0px;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    font-weight:bold;
+}
+
+
+.btn11 {
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px 115px 10px 115px;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    text-decoration: none;
+    font-size: medium;
+}
+
+.btn11:hover {
+    background-color:black;
+    color:white;
+    transition: all 0.4s;
+}
+
+.review-container {
+    height: 60vh;
+    width: 100%;
+    margin-top: 0vh;
+    background-image: url(../Images/minecraft.avif);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.review-parent {
+    padding: 0;
+}
+
+/*
+.review-image {
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+    border-radius: 100%;
+}
+*/
