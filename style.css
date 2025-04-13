@@ -14,6 +14,7 @@ body {
     font-size: large;
     position: fixed;
     width: 100%;
+    z-index: 1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -214,7 +215,7 @@ body {
     width: 100%;
     margin: auto;
     height: 100vh;
-    background-color: #d1d1d1;
+    background-color: #23b9ff;
 }
 
 .feature-container h1 {
@@ -324,8 +325,8 @@ body {
 }
 
 .offer-item:hover {
-    background-color: #cecece;
-    transition: all 0.5s;
+    background-color: #b3b3b3;
+    transition: all 0.4s;
 }
 
 .offer-item div {
@@ -470,7 +471,7 @@ body {
     width: 200px;
 }
 
-.simple {
+.price {
     width: 300px;
     height: auto;             /* Margin == Outer spacing */
     border: 1px solid black;
@@ -480,13 +481,13 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.simple h1 {
+.price h1 {
     margin-top: 0vh;
     font-size: 40px;
 }
 
-.simple:hover {
-    background-color: #a1a1a1;
+.price:hover {
+    background-color: #cccccc;
     transition: all 0.4s;
 }
 
@@ -525,7 +526,7 @@ body {
 }
 
 .btn11:hover {
-    background-color:black;
+    background-color:rgb(100, 100, 100);
     color:white;
     transition: all 0.4s;
 }
@@ -538,18 +539,221 @@ body {
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .review-parent {
     padding: 0;
+    height: 60vh;
+    width: 80%;    
+    margin-left: 10%;
 }
 
-/*
-.review-image {
-    width: 50px;
-    height: 50px;
-    background-color: wheat;
+.review-item {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    width: 45%;
+    height: 30vh;
+    margin-top: 20vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.review-image1 {
+    background-image: url(../Images/istockphoto-1289220545-612x612.jpg);
+    background-size: cover;
+    background-position-x: -40px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 100%;
 }
-*/
+
+.review-image2 {
+    background-image: url(../Images/portrait-of-a-young-woman-EHNP4J.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.review-text {
+    margin-top: 2vh;
+    margin-left: 115px;
+}
+
+
+
+.team-container {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+
+.team-parent {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    padding-top: 15px;
+}
+
+.team-item {
+    width: 30%;
+    height: 60vh;
+    float: left;
+    background-color: #3abcf8;
+    margin-top: 10vh;
+    margin-right: 5%;
+    border-radius: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.team-image {
+    height: 60%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-image: url(../Images/images.jfif);
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.team-item .image1 {
+    background-image: url(../Images/images\ \(1\).jfif);
+}
+
+.team-item .image2 {
+    background-image: url(../Images/images\ \(2\).jfif);
+}
+
+.team-image-effect {
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    background-color:#23b9ff;
+    opacity: 0;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 181px;
+}
+
+.team-image-effect .fab {
+    margin-bottom: 20px;
+}
+
+.team-image-effect:hover {
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+
+
+.news-container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.news-parent {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    padding-top: 15px;
+}
+
+.news-item {
+    width: 30%;
+    height: 60vh;
+    float: left;
+    border: 1px solid black;
+    margin-top: 10vh;
+    margin-right: 5%;
+    border-radius: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.news-item .fas {
+    font-size: 30px;
+    margin-left: 26%;
+}
+
+.news-item span {
+    position: absolute;
+}
+
+.news-item p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.news-item:hover {
+    background-color: #23b9ff;
+    transition: all 0.4s;
+}
+
+.news-image {
+    height: 60%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-image: url(../Images/trump-presidente-2024-meme-e-vignette-2.webp);
+    background-size: cover;
+    border-radius: 5%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.news-item .image11 {
+    background-image: url(../Images/putingridingbear.jpg);
+}
+
+.news-item .image12 {
+    background-image: url(../Images/GettyImages-2194418262-1.webp);
+}
+
+
+
+.info-container {
+    height: 40vh;
+    width: 100%;
+    background-color: #23b9ff;
+}
+
+.info-parent {
+    width: 30%;
+    height: 40vh;
+    margin-left: 35%;
+    padding-top: 1%;
+}
+
+.info-image {
+    width: 60%;
+    height: 150px;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(../Images/group-of-happy-multiethnic-business-people-showing-sign-of-success.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.info-icon {
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: rgb(63, 119, 238);
+    text-align: center;
+    padding-top: 7.5px;
+    margin-right: 15px;
+}
+
+.info-icon:hover {
+    opacity: 0.5;
+    transition: all 0.4s;
+}
+
+.info-icon i {
+    color: white;
+    font-size: 35px;
+}
